@@ -1,0 +1,62 @@
+.container {
+}
+
+.image-gallery {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 33% 32% 32%;
+}
+
+.side-by-side {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    border: 1px solid rgba(43, 103, 119, 1);
+    padding: 5px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border: solid 1px black;
+}
+
+h1 {
+    text-align: center;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(43, 103, 119, 1);
+}
+
+h3 {
+    text-align: center;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(43, 103, 119, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(43, 103, 119, 1);
+}
+
+#footer {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    width: 100%;
+    text-align: right;
+}
+
+a {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    color: #2b6777;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
